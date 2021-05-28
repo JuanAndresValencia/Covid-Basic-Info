@@ -56,9 +56,10 @@ const Container = styled.div`
    min-height: 100vh;
    background-color: purple;
    background-image: url('/images/header-covid.jpg');
-   background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
+   background-position: center;
+   padding-bottom: 100px;
 
 `
 
@@ -66,8 +67,7 @@ const Gradient = styled.div`
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  position: absolute;
-  min-height: 100%;
+  position: fixed;
   background: rgb(0,0,0);
   background: linear-gradient(80deg, rgba(0,0,0,1) 13%, rgba(0,0,0,0.6474964985994398) 55%, rgba(6,1,1,1) 86%);
 `
